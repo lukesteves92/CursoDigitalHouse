@@ -3,24 +3,37 @@
 
 fun main(){
 
+    val bichano = Bichano()
+
+    bichano.sexo = "M"
+    bichano.cor = "Preto"
+
 
 }
 
-open class Animal(val sexo: String = "0"){
+open class Animal(var sexo: String = "0"){
 
-    constructor(sexo: String, cor: String): this(sexo)
+    var cor = ""
+    constructor(sexo: String, cor: String): this(sexo){
+        this.cor = cor
+    }
+
 }
 
 class Cachorro: Animal(sexo = "M"){
 
 }
 
-class Gato: Animal(sexo = "F", cor = "Branco"){
+open class Gato: Animal(sexo = "F", cor = "Branco"){
 
 
 }
 
+class Bichano: Gato(){
 
+
+
+}
 
 
 
