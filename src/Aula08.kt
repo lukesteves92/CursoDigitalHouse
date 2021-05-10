@@ -2,6 +2,7 @@
 // quando declarar construtor na pai, precisa colocar um valor default na variavel que está passando
 // com o open em frente a função, eu consigo subscrever a função
 // se colocar open nas variveis, consigo subscrever tambem
+// modificadores de acesso: private, protected, internal, public
 
 fun main(){
 
@@ -10,6 +11,10 @@ fun main(){
     bichano.sexo = "M"
     bichano.cor = "Preto"
     bichano.come()
+
+    val gato = Gato()
+
+    gato.minhaRaca()
 
 }
 
@@ -23,6 +28,9 @@ open class Animal(open var sexo: String = "0"){
     open fun come(){
         println("Come do jeito default")
     }
+    fun minhaRaca(){
+        println("Minha raça é gato")
+    }
 
 
 }
@@ -34,12 +42,13 @@ class Cachorro: Animal(sexo = "M"){
 open class Gato: Animal(sexo = "F", cor = "Branco"){
 
 
+
 }
 
 class Bichano: Gato(){
 
 
-    override fun come() {
+    final override fun come() {
         //super.come()
         println("Como do jeito Bichano")
     }
