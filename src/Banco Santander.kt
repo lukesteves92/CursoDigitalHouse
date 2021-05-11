@@ -1,5 +1,5 @@
-/*package Exercicio1Banco
-class ExercicioBanco {
+
+class BancoSantander {
     fun main() {
         val ze = Cliente("Zé", "Ruela")
         val joao = Cliente("João", "Rosca")
@@ -11,7 +11,9 @@ class ExercicioBanco {
         conta_joao.saque(50.0)
     }
 }
-class Cliente(val nome: String, val sobrenome: String) {}
+class Cliente(val nome: String, val sobrenome: String, val cpf: String, val rg: String) {
+
+}
 class Conta(val numero: UInt, var saldo: Double, val titular: Cliente) {
     fun deposito(quantidade: Double) {
         saldo += quantidade
@@ -25,4 +27,4 @@ class Conta(val numero: UInt, var saldo: Double, val titular: Cliente) {
         println("Transação: $transacao, Novo saldo: $saldo")
     }
 }
-*/
+
