@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/Kotlin DEV.iml" filepath="$PROJECT_DIR$/.idea/Kotlin DEV.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Android DH.iml" filepath="$PROJECT_DIR$/Android DH.iml" />
     </modules>
   </component>
 </project>
