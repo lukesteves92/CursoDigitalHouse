@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eceeffaf-49c8-4531-af29-db8c94dcbf9e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ExercicioEstoque.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Exercicio Revisão 1205/main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Exercicio Revisão 1205/main.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ExercicioEstoque.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/ExercicioEstoque.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,17 +40,6 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
   <component name="RunManager">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="MainKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <module name="Android DH" />
       <option name="VM_PARAMETERS" />
@@ -79,7 +67,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1620880584271</updated>
-      <workItem from="1620880585976" duration="1574000" />
+      <workItem from="1620880585976" duration="1612000" />
+      <workItem from="1620882237153" duration="1658000" />
     </task>
     <servers />
   </component>
@@ -96,5 +85,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
