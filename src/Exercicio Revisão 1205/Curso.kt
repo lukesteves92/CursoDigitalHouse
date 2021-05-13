@@ -1,10 +1,10 @@
 package `Exercicio Revisão 1205`
 
 class Curso(
-    nome: String,
-    listaAulas: List<Aula>,
-    listaAlunos: List<Aluno>,
-    professor: Professor
+    var nome: String,
+    var listaAulas: List<Aula>,
+    var listaAlunos: List<Aluno>,
+    var professor: Professor
 
 
 ) {

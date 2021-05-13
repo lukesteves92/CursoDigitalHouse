@@ -1,3 +1,5 @@
+
+/*
 fun main(){
     var tripe1 = Tripe(30,50, 80)
     Tripe(tripe1.alturaMinima, tripe1.alturaMaxima, tripe1.alturaAtual).guardar(tripe1.prontoParaGuardar(tripe1.dobrar(tripe1.definirAltura(60))))
@@ -47,3 +49,4 @@ class Tripe(
         return tripe
     }
 }
+*/

@@ -1,3 +1,5 @@
+
+/*
 fun main(){
     var atleta1 = Atleta("Sion", 8, 8)
     var atleta2 = Atleta("Lee", 4, 10)
@@ -26,3 +28,6 @@ class Prova(
         return atleta.nivel >= dificuldade && atleta.energia >= energiaNecessaria
     }
 }
+
+
+ */

@@ -4,6 +4,7 @@
 // se colocar open nas variveis, consigo subscrever tambem
 // modificadores de acesso: private, protected, internal, public
 
+/*
 fun main(){
 
     val bichano = Bichano()
@@ -60,7 +61,7 @@ class Bichano: Gato(){
 }
 
 
-
+*/
 
 
 
