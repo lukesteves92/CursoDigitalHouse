@@ -1,3 +1,4 @@
+/*
 fun main() {
     val saoPaulo = SaoPaulo()
     saoPaulo.impostoXpto()
@@ -21,7 +22,7 @@ class SaoPaulo: RegraDeOuro {
 
 
 }
-
+/*
 interface RegraDeOuro {
 
     val icms: Double
@@ -47,3 +48,5 @@ abstract class RegraDePrata {
 
     abstract fun colherEstadoX1()
 }
+
+ */

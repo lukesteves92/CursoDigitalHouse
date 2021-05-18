@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="eceeffaf-49c8-4531-af29-db8c94dcbf9e" name="Default Changelist" comment="" />
+    <list default="true" id="eceeffaf-49c8-4531-af29-db8c94dcbf9e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/Exercicio Revisão 1205/Turma.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Exercicio Revisão 1205/Turma.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ExercicioEstoque.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/ExercicioEstoque.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ExercicioInterface.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/ExercicioInterface.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ingresso.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ingresso.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/IngressoRespostaProfessor.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/IngressoRespostaProfessor.kt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -36,7 +42,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.IngressoRespostaProfessorKt">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -44,6 +50,19 @@
         </value>
       </option>
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IngressoRespostaProfessorKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <module name="Android DH" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="IngressoRespostaProfessorKt" />
+      <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -63,6 +82,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.IngressoRespostaProfessorKt" />
         <item itemvalue="Application.MainKt" />
       </list>
     </recent_temporary>
@@ -77,7 +97,7 @@
       <updated>1620880584271</updated>
       <workItem from="1620880585976" duration="1612000" />
       <workItem from="1620882237153" duration="2255000" />
-      <workItem from="1621033548154" duration="9885000" />
+      <workItem from="1621033548154" duration="10274000" />
     </task>
     <servers />
   </component>

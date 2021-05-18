@@ -1,3 +1,4 @@
+/*
 abstract class Automovel {
 
     abstract val nome: String
@@ -26,3 +27,5 @@ class Ferrari : Automovel() {
 
 
 // Ctrl + Alt + L - formata o código
+
+ */

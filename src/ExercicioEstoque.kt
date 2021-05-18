@@ -1,3 +1,4 @@
+/*
 class EstoqueProduto (var nome: String, var qtdAtual: Int, var qtdMinima: Int) {
 
 
@@ -49,3 +50,6 @@ class EstoqueProduto (var nome: String, var qtdAtual: Int, var qtdMinima: Int) {
 
 
 
+
+
+ */
