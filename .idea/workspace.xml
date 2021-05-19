@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eceeffaf-49c8-4531-af29-db8c94dcbf9e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Aula12.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Android DH/CamaroteInferior.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Android DH/CamaroteSuperior.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Android DH/Ingresso.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Android DH/IngressoRespostaProfessorKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Android DH/META-INF/Android DH.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Android DH/META-INF/Android DH.kotlin_module" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Aula09 - Classe Abstrata.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Aula09 - Classe Abstrata.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/IngressoRespostaProfessor.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/IngressoRespostaProfessor.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,7 +93,7 @@
       <updated>1620880584271</updated>
       <workItem from="1620880585976" duration="1612000" />
       <workItem from="1620882237153" duration="2255000" />
-      <workItem from="1621033548154" duration="11951000" />
+      <workItem from="1621033548154" duration="14008000" />
     </task>
     <servers />
   </component>
