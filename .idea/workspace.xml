@@ -3,7 +3,19 @@
   <component name="ChangeListManager">
     <list default="true" id="eceeffaf-49c8-4531-af29-db8c94dcbf9e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Android DH/Equals/Pessoa.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Android DH/Equals/PessoaKt.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Android DH/META-INF/Android DH.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Android DH/META-INF/Android DH.kotlin_module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Equals/Pessoa.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Equals/Pessoa.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Exercicio Revisão 1205/Aluno.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/ExercicioRevisão1205/Aluno.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Exercicio Revisão 1205/Aula.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/ExercicioRevisão1205/Aula.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Exercicio Revisão 1205/Curso.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/ExercicioRevisão1205/Curso.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Exercicio Revisão 1205/Materia.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/ExercicioRevisão1205/Materia.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Exercicio Revisão 1205/Pessoa.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/ExercicioRevisão1205/Pessoa.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Exercicio Revisão 1205/Professor.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/ExercicioRevisão1205/Professor.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Exercicio Revisão 1205/Turma.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/ExercicioRevisão1205/Turma.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Exercicio.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/ExercicioRevisão1205/Exercicio.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/IngressoRespostaProfessor.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/IngressoRespostaProfessor.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +51,12 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
-  <component name="RunManager" selected="Application.PessoaKt">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Android DH\src\Exercicio Revisão 1205" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.InterfaceKt">
     <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -49,6 +66,19 @@
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExercicioKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <module name="Android DH" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="ExercicioRevisão1205.ExercicioKt" />
+      <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -66,6 +96,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="InterfaceKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <module name="Android DH" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="ExercicioInterfaceKotlin.InterfaceKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MainKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <module name="Android DH" />
       <option name="VM_PARAMETERS" />
@@ -73,7 +116,7 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="Exercicio Revisão 1205.MainKt" />
+      <option name="MAIN_CLASS_NAME" value="ExercicioRevisão1205.MainKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -94,6 +137,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.InterfaceKt" />
+        <item itemvalue="Application.ExercicioKt" />
         <item itemvalue="Application.PessoaKt" />
         <item itemvalue="Application.MainKt" />
       </list>
@@ -110,6 +155,7 @@
       <workItem from="1620880585976" duration="1612000" />
       <workItem from="1620882237153" duration="2255000" />
       <workItem from="1621033548154" duration="15937000" />
+      <workItem from="1621471413065" duration="10880000" />
     </task>
     <servers />
   </component>

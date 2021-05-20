@@ -1,5 +1,5 @@
-/*
-package `Exercicio Revisão 1205`
+
+package ExercicioRevisão1205
 
 class Turma(
 
@@ -11,4 +11,3 @@ class Turma(
             ) {
 }
 
- */

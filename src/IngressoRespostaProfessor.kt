@@ -66,8 +66,7 @@ class Normal(
 
 class CamaroteInferior(
     valorReais: Double,
-    val localizacao: Int
-) : Vip(valorReais) {
+    val localizacao: Int) : Vip(valorReais) {
 
     fun localizacaoIngresso() {
         println("A localização do ingresso é $localizacao")

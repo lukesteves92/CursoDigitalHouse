@@ -1,3 +1,4 @@
+/*
 package Equals
 
 
@@ -27,3 +28,4 @@ fun main() {
 
 
 }
+*/

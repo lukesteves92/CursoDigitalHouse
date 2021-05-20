@@ -1,5 +1,5 @@
-/*
-package `Exercicio Revisão 1205`
+
+package ExercicioRevisão1205
 
 class Curso(
     var nome: String,
@@ -15,4 +15,3 @@ class Curso(
 
 }
 
- */
