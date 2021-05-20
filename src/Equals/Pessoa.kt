@@ -16,14 +16,14 @@ open class Pessoa(var nome: String, var rg: Int) {
 
     }
 
-    fun main() {
 
-        val pessoa1 = Pessoa("Lucas Esteves", 454545)
-        val pessoa2 = Pessoa("Lucas Silva", 454545)
-
-        println(pessoa1.equals(pessoa2))
-
-
-    }
 }
+fun main() {
 
+    val pessoa1 = Pessoa("Lucas Esteves", 454545)
+    val pessoa2 = Pessoa("Lucas Silva", 454545)
+
+    println(pessoa1.equals(pessoa2))
+
+
+}
