@@ -2,20 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eceeffaf-49c8-4531-af29-db8c94dcbf9e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Android DH/Equals/Pessoa.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Android DH/Equals/PessoaKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Android DH/META-INF/Android DH.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Android DH/META-INF/Android DH.kotlin_module" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Equals/Pessoa.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Equals/Pessoa.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Exercicio Revisão 1205/Aluno.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/ExercicioRevisão1205/Aluno.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Exercicio Revisão 1205/Aula.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/ExercicioRevisão1205/Aula.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Exercicio Revisão 1205/Curso.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/ExercicioRevisão1205/Curso.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Exercicio Revisão 1205/Materia.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/ExercicioRevisão1205/Materia.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Exercicio Revisão 1205/Pessoa.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/ExercicioRevisão1205/Pessoa.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Exercicio Revisão 1205/Professor.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/ExercicioRevisão1205/Professor.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Exercicio Revisão 1205/Turma.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/ExercicioRevisão1205/Turma.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Exercicio.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/ExercicioRevisão1205/Exercicio.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/IngressoRespostaProfessor.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/IngressoRespostaProfessor.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ExercicioRevisão1205/Aluno.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ExercicioRevisão1205/Aula.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ExercicioRevisão1205/Curso.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ExercicioRevisão1205/Exercicio.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/ExercicioRevisão1205/Exercicio.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ExercicioRevisão1205/Materia.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ExercicioRevisão1205/Pessoa.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ExercicioRevisão1205/Professor.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ExercicioRevisão1205/Turma.kt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -155,7 +149,7 @@
       <workItem from="1620880585976" duration="1612000" />
       <workItem from="1620882237153" duration="2255000" />
       <workItem from="1621033548154" duration="15937000" />
-      <workItem from="1621471413065" duration="10880000" />
+      <workItem from="1621471413065" duration="11975000" />
     </task>
     <servers />
   </component>
