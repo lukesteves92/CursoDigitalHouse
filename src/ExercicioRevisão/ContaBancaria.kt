@@ -6,9 +6,9 @@ abstract class ContaBancaria() {
 
     abstract val saldo: Double
 
-    abstract fun sacar(value: Double) : String
+    abstract fun sacar(value: Double)
 
-    abstract fun depositar(value: Double) : String
+    abstract fun depositar(value: Double)
 
     fun transferir(valorTransferencia: Double, conta: ContaBancaria){
 

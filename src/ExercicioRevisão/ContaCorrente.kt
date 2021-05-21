@@ -4,18 +4,22 @@ class ContaCorrente(override var numeroConta: Int, override var saldo: Double) :
 
     var taxaDeOperacao: Double = 0.0
 
-    override fun sacar(valorSaque: Double): String {
+    override fun sacar(valorSaque: Double){
 
-        saldo -= valorSaque
+        if (valorSaque > (saldo + taxaDeOperacao)) {
+            println("Saldo Insuficiente")
+        } else {
 
-        return "Saque realizado com sucesso. Saldo atual: {$saldo}"
+            saldo -= valorSaque + taxaDeOperacao
+            println("Saque executado com sucesso. Saldo $saldo")
+        }
     }
 
-    override fun depositar(valorDeposito: Double): String {
+    override fun depositar(valorDeposito: Double){
 
-        saldo += valorDeposito
+        saldo += valorDeposito - taxaDeOperacao
 
-        return "Valor depositado com sucesso. Saldo da conta: $saldo "
+        println("Valor depositado com sucesso. Saldo da conta: $saldo ")
     }
 
     override fun mostrarDados() {
