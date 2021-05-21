@@ -3,15 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="eceeffaf-49c8-4531-af29-db8c94dcbf9e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Android DH/ExercicioRevisão1205/Aluno.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Android DH/ExercicioRevisão1205/Aluno.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Android DH/ExercicioRevisão1205/Aula.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Android DH/ExercicioRevisão1205/Aula.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Android DH/ExercicioRevisão1205/Curso.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Android DH/ExercicioRevisão1205/Curso.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Android DH/ExercicioRevisão1205/ExercicioKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Android DH/ExercicioRevisão1205/ExercicioKt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Android DH/ExercicioRevisão1205/Materia.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Android DH/ExercicioRevisão1205/Materia.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Android DH/ExercicioRevisão1205/Pessoa.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Android DH/ExercicioRevisão1205/Pessoa.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Android DH/ExercicioRevisão1205/Professor.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Android DH/ExercicioRevisão1205/Professor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Android DH/ExercicioRevisão1205/Turma.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Android DH/ExercicioRevisão1205/Turma.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ExercicioRevisão1205/Exercicio.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/ExercicioRevisão1205/Exercicio.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -151,7 +142,7 @@
       <workItem from="1620880585976" duration="1612000" />
       <workItem from="1620882237153" duration="2255000" />
       <workItem from="1621033548154" duration="15937000" />
-      <workItem from="1621471413065" duration="17886000" />
+      <workItem from="1621471413065" duration="18376000" />
     </task>
     <servers />
   </component>
