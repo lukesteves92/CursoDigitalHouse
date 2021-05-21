@@ -19,8 +19,12 @@ class ContaPoupança(override var numeroConta: Int, override var saldo: Double) 
         return "Saque realizado com sucesso. Saldo: $saldo"
     }
 
-    override fun depositar(): String{
-        TODO("Not yet implemented")
+    override fun depositar(valorDeposito: Double): String{
+
+        saldo += valorDeposito
+
+        return "Valor depositado com sucesso. Saldo da conta: $saldo "
+
     }
 
     override fun mostrarDados() {

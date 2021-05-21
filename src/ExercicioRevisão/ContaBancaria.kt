@@ -2,18 +2,15 @@ package ExercicioRevisão
 
 abstract class ContaBancaria() {
 
+    abstract val numeroConta: Int
 
-    abstract var numeroConta: Int
+    abstract val saldo: Double
 
-    abstract var saldo: Double
+    abstract fun sacar(value: Double) : String
 
-    abstract fun sacar(valorSaque: Double) : String
-
-    abstract fun depositar() : String
+    abstract fun depositar(value: Double) : String
 
     fun transferir(valorTransferencia: Double, conta: ContaBancaria){
-
-
 
     }
 
