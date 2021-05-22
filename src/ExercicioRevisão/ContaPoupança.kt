@@ -8,17 +8,15 @@ class ContaPoupança(override var numeroConta: Int, override var saldo: Double) 
 
         val saldoTotal  = saldo + limite
 
-        if (saldo > 0) {
-            if (valorSaque > saldoTotal) {
+        if (valorSaque > saldoTotal) {
                 println("Saldo Insuficiente")
             } else {
                 saldo -= valorSaque
+            println("Saque efetuado com sucesso, saldo atual: $saldo")
             }
-        } else{
-            println("Saldo Insuficiente")
         }
 
-    }
+
 
     override fun depositar(valorDeposito: Double){
 
