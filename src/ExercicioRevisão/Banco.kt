@@ -1,17 +1,39 @@
 package ExercicioRevisão
 
-class Banco(var listaContas: List<ContaBancaria>) {
+class Banco(var listaContas: MutableList<ContaBancaria>): Imprimivel {
 
-    fun inserir(){
+    fun inserir(ContaBancaria: ContaBancaria) {
 
-    }
-
-    fun remover(){
+        listaContas?.add(ContaBancaria)
 
     }
 
-    fun procurarConta(){
+    fun remover(ContaBancaria: ContaBancaria) {
+
+        listaContas?.remove(ContaBancaria)
+
 
     }
 
+    fun procurarConta(ContaBancaria: ContaBancaria) {
+
+        if (listaContas?.contains(ContaBancaria)){
+
+            println("Conta Bancária existente")
+        }else{
+
+            println("Conta não existente")
+        }
+
+
+
+    }
+
+    override fun mostrarDados() {
+
+
+
+    }
 }
+
+
