@@ -2,11 +2,11 @@ package ExercicioRevisão
 
 class ContaCorrente(override var numeroConta: Int, override var saldo: Double) : ContaBancaria(), Imprimivel {
 
-    var taxaDeOperacao: Double = 0.0
+    var taxaDeOperacao: Double = 10.0
 
     override fun sacar(valorSaque: Double){
 
-        if (valorSaque > (saldo + taxaDeOperacao)) {
+        if ((valorSaque + taxaDeOperacao) > saldo) {
             println("Saldo Insuficiente")
         } else {
 
@@ -23,7 +23,7 @@ class ContaCorrente(override var numeroConta: Int, override var saldo: Double) :
     }
 
     override fun mostrarDados() {
-        println("Sua Taxa de Operação é $taxaDeOperacao")
+        println("Sua Taxa de Operação é $taxaDeOperacao, seu saldo é $saldo e sua conta é $numeroConta")
     }
 
 

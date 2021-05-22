@@ -8,6 +8,10 @@ fun main(){
          LucasCorrente.sacar(400.00)
          LucasPoupanca.sacar(1000.00)
 
+        val relatorio = Relatorio()
+
+    relatorio.gerarRelatorio(LucasCorrente)
+
      }
 
 

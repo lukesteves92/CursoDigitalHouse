@@ -3,10 +3,9 @@ package ExercicioRevisão
 class ContaPoupança(override var numeroConta: Int, override var saldo: Double) : ContaBancaria(), Imprimivel {
 
     var limite: Double = 800.00
+    val saldoTotal  = saldo + limite
 
     override fun sacar(valorSaque: Double) {
-
-        val saldoTotal  = saldo + limite
 
         if (valorSaque > saldoTotal) {
                 println("Saldo Insuficiente")
@@ -27,7 +26,7 @@ class ContaPoupança(override var numeroConta: Int, override var saldo: Double) 
     }
 
     override fun mostrarDados() {
-        println("Seu limite é $limite")
+        println("Seu limite é $limite, seu saldo é $saldoTotal e sua conta é $numeroConta")
     }
 
 }
