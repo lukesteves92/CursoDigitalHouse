@@ -11,6 +11,7 @@ fun main(){
         val relatorio = Relatorio()
 
     relatorio.gerarRelatorio(LucasCorrente)
+    relatorio.gerarRelatorio(LucasPoupanca)
 
      }
 
