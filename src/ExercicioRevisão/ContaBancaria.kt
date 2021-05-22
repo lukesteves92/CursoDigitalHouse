@@ -10,7 +10,11 @@ abstract class ContaBancaria() {
 
     abstract fun depositar(value: Double)
 
-    fun transferir(valorTransferencia: Double, conta: ContaBancaria){
+    fun transferir(valorTransferencia: Double, contaBancaria: ContaBancaria){
+
+        sacar(valorTransferencia) // Conta que está chamando
+        contaBancaria.depositar(valorTransferencia) // Conta alvo, por isso está contaBancaria.depositar
+
 
     }
 
