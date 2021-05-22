@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eceeffaf-49c8-4531-af29-db8c94dcbf9e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/ExercicioRevisão/ContaBancaria.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/ExercicioRevisão/ContaBancaria.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ExercicioRevisão/ContaCorrente.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/ExercicioRevisão/ContaCorrente.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ExercicioRevisão/ContaPoupança.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/ExercicioRevisão/ContaPoupança.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ExercicioRevisão/executavel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/ExercicioRevisão/executavel.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -144,7 +142,7 @@
       <workItem from="1620880585976" duration="1612000" />
       <workItem from="1620882237153" duration="2255000" />
       <workItem from="1621033548154" duration="15937000" />
-      <workItem from="1621471413065" duration="23451000" />
+      <workItem from="1621471413065" duration="23791000" />
     </task>
     <servers />
   </component>
