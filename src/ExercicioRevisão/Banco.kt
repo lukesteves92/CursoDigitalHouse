@@ -1,6 +1,6 @@
 package ExercicioRevisão
 
-class Banco(var listaContas: MutableList<ContaBancaria>): Imprimivel {
+class Banco(var listaContas: ArrayList<ContaBancaria>): Imprimivel {
 
     fun inserir(ContaBancaria: ContaBancaria) {
 
@@ -15,25 +15,36 @@ class Banco(var listaContas: MutableList<ContaBancaria>): Imprimivel {
 
     }
 
-    fun procurarConta(ContaBancaria: ContaBancaria) {
+    fun procurarConta(numeroConta: Int) {
+        for (i in listaContas) {
+            if (i.numeroConta == numeroConta) {
+                println("Conta Existente")
+                break
+            } else {
+                println("Conta Não encontrada")
+                break
+            }
 
-        if (listaContas?.contains(ContaBancaria)){
 
-            println("Conta Bancária existente")
-        }else{
-
-            println("Conta não existente")
         }
-
-
 
     }
 
     override fun mostrarDados() {
 
+        listaContas.forEach{
+
+            println("Lista de contas: ${it.numeroConta}")
+
+        }
+    }
 
 
     }
-}
+
+
+
+
+
 
 

@@ -21,8 +21,7 @@ var nomeUsuario = "0"
 
 var opcao = 0
     while (opcao < 1 || opcao > 6) {
-         opcao = Integer.parseInt(
-            JOptionPane.showInputDialog(
+         opcao = Integer.parseInt(JOptionPane.showInputDialog(
                 "Menu Digital House:+" +
                         "1 - Consultar Alunos+" +
 

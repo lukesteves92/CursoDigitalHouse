@@ -2,9 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eceeffaf-49c8-4531-af29-db8c94dcbf9e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/ControledeColecoes/Executavel.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ControledeColecoes/Fornecedor.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ControledeColecoes/Produto.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Android DH/ExercicioRevisão1205/Aluno.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Android DH/ExercicioRevisão1205/Aluno.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Android DH/ExercicioRevisão1205/Aula.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Android DH/ExercicioRevisão1205/Aula.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Android DH/ExercicioRevisão1205/Curso.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Android DH/ExercicioRevisão1205/Curso.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Android DH/ExercicioRevisão1205/ExercicioKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Android DH/ExercicioRevisão1205/ExercicioKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Android DH/ExercicioRevisão1205/Materia.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Android DH/ExercicioRevisão1205/Materia.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Android DH/ExercicioRevisão1205/Pessoa.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Android DH/ExercicioRevisão1205/Pessoa.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Android DH/ExercicioRevisão1205/Professor.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Android DH/ExercicioRevisão1205/Professor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Android DH/ExercicioRevisão1205/Turma.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Android DH/ExercicioRevisão1205/Turma.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Android DH/META-INF/Android DH.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Android DH/META-INF/Android DH.kotlin_module" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Aula14.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Aula14.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ExercicioRevisão/Banco.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/ExercicioRevisão/Banco.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ExercicioRevisão/executavel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/ExercicioRevisão/executavel.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ExercicioRevisão1205/Exercicio.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/ExercicioRevisão1205/Exercicio.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +58,7 @@
       <recent name="C:\Android DH\src\Exercicio Revisão 1205" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Aula14Kt">
+  <component name="RunManager" selected="Application.ExecutavelKt">
     <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -139,11 +152,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ExecutavelKt" />
+        <item itemvalue="Application.ExecutavelKt" />
         <item itemvalue="Application.Aula14Kt" />
         <item itemvalue="Application.ExecutavelKt" />
         <item itemvalue="Application.ExercicioKt" />
-        <item itemvalue="Application.InterfaceKt" />
-        <item itemvalue="Application.PessoaKt" />
       </list>
     </recent_temporary>
   </component>
@@ -158,7 +171,7 @@
       <workItem from="1620880585976" duration="1612000" />
       <workItem from="1620882237153" duration="2255000" />
       <workItem from="1621033548154" duration="15937000" />
-      <workItem from="1621471413065" duration="33348000" />
+      <workItem from="1621471413065" duration="43891000" />
     </task>
     <servers />
   </component>
