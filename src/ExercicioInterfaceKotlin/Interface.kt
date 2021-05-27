@@ -44,4 +44,9 @@ fun main(){
     impressora.adicionar(foto)
     impressora.adicionar(contrato)
     impressora.imprimir()
+
+
+
+
+
 }
