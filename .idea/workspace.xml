@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="77fb700e-d182-4369-8ee3-4e374d276647" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Aula16-Collections.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ColletionsExercicio.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Android DH/META-INF/Android DH.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Android DH/META-INF/Android DH.kotlin_module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Aula16-Collections.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Aula16-Collections.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,7 +25,7 @@
   <component name="PropertiesComponent">
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.ColletionsExercicioKt">
     <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -51,8 +52,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ColletionsExercicioKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <module name="Android DH" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="ColletionsExercicioKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ColletionsExercicioKt" />
         <item itemvalue="Application.Aula16_CollectionsKt" />
       </list>
     </recent_temporary>

@@ -1,3 +1,5 @@
+
+/*
 fun main() {
 
     val listaImutavel = listOf(1, "siufhsd", 1.0, 10.0f)
@@ -46,3 +48,4 @@ fun main() {
 
     println(mapMutavel)
 }
+ */
