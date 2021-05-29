@@ -27,10 +27,11 @@ fun main(){
         entry.value.forEach{ apelido ->
             nomeApelidos.append("${apelido},  ")
         }
+git 
 
-        println(nomeApelidos.toString())
 
     }
+    println(nomeApelidos.toString())
 
 
 
