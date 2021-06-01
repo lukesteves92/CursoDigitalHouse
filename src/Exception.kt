@@ -1,4 +1,5 @@
 import java.lang.IndexOutOfBoundsException
+
 import kotlin.jvm.Throws
 
 fun main() {
@@ -15,14 +16,17 @@ fun main() {
         println(index.localizedMessage)
     }
 
+    val calculoMatematico = CalculoMatematico()
+    try {
+        calculoMatematico.divisao(4, 0)
+    } catch (ex: ArithmeticException) {
+        println(ex.message)
+    }
 
 
 
 
-    var calculoMatematico = CalculoMatematico()
-
-    println(calculoMatematico.divisao(4, 1))
-
+    
     try {
         testeThrown()
     } catch (ex: java.lang.ArithmeticException) {
@@ -55,19 +59,15 @@ fun testeThrown() {
 
 class CalculoMatematico {
 
-    fun divisao(numero1: Int, numero2: Int){
+    @Throws(java.lang.ArithmeticException::class)
+    fun divisao(numero1: Int, numero2: Int): Int{
 
-        var resultado: Int = 0
+      return if (numero2 == 0){
+          throw ArithmeticException("Divisão por zero")
 
-        try {
-            resultado = numero1 / numero2
-            println(resultado)
-
-        } catch (xpto1: ArithmeticException) {
-            println("Divisão por zero não é permitida")
-
-
-        }
+      } else{
+          numero1 / numero2
+      }
 
 
     }
