@@ -1,6 +1,22 @@
+import java.lang.IndexOutOfBoundsException
 import kotlin.jvm.Throws
 
 fun main() {
+
+    var listaString: MutableList<String>? = mutableListOf()
+
+    listaString?.add("Cachorro")
+    listaString?.add("Pato")
+    listaString?.add("Gato")
+
+    try {
+        println(listaString?.get(5))
+    } catch (index: IndexOutOfBoundsException){
+        println(index.localizedMessage)
+    }
+
+
+
 
 
     var calculoMatematico = CalculoMatematico()

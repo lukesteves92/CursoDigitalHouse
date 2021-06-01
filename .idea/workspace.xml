@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="77fb700e-d182-4369-8ee3-4e374d276647" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Exception.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Android DH/META-INF/Android DH.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Android DH/META-INF/Android DH.kotlin_module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Exception.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Exception.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -134,7 +133,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1622250023060</updated>
-      <workItem from="1622250030377" duration="7150000" />
+      <workItem from="1622250030377" duration="7776000" />
     </task>
     <servers />
   </component>
