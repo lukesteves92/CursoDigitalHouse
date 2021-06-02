@@ -2,8 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="77fb700e-d182-4369-8ee3-4e374d276647" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/DesafioKotlinDH2021/Aluno.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesafioKotlinDH2021/Curso.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesafioKotlinDH2021/DigitalHouseManager.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesafioKotlinDH2021/Main.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesafioKotlinDH2021/Matricula.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesafioKotlinDH2021/Professor.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesafioKotlinDH2021/ProfessorAdjunto.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesafioKotlinDH2021/ProfessorTitular.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Android DH/META-INF/Android DH.kotlin_module" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Exception.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Exception.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -15,6 +22,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Kotlin Class" />
+        <option value="Kotlin File" />
       </list>
     </option>
   </component>
@@ -134,7 +142,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1622250023060</updated>
-      <workItem from="1622250030377" duration="9354000" />
+      <workItem from="1622250030377" duration="10676000" />
+      <workItem from="1622674038043" duration="1558000" />
+      <workItem from="1622676347176" duration="292000" />
     </task>
     <servers />
   </component>

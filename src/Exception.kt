@@ -26,7 +26,7 @@ fun main() {
 
 
 
-    
+
     try {
         testeThrown()
     } catch (ex: java.lang.ArithmeticException) {
