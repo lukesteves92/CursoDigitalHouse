@@ -87,6 +87,7 @@ class DigitalHouseManager {
     }
 
     fun registrarMatricula(aluno: Aluno, curso: Curso) {
+
         for (i in cursos){
             if (i.alunosMatriculados.size < i.qtdMaxAlunos) {
                 val matricula = Matricula (aluno, curso)
@@ -99,7 +100,7 @@ class DigitalHouseManager {
     }
 
 
-    
+
 
 }
 
