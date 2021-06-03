@@ -27,7 +27,20 @@ class Curso (
         return "O nome do curso é: $nome / Código: $codigoCurso)"
     }
 
-
+    fun adicionarAluno(aluno: Aluno): Boolean {
+        return (aluno as? Aluno)?.let {
+            if(alunosMatriculados.size == qtdMaxAlunos){
+                alunosMatriculados.add(aluno)
+                true
+            } else {
+                println("Desculpe, não há vagas disponíveis!")
+                false
+            }
+        } ?: run {
+            println("Não foi possível adicionar o aluno.")
+            false
+        }
+    }
 
 
 }
