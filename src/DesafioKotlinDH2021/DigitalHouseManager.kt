@@ -10,6 +10,18 @@ class DigitalHouseManager {
     private val matriculas: MutableList<Matricula> = mutableListOf()
 
 
+    fun listarmatriculas(){
+        matriculas.forEach{
+            println("As matrículas realizadas são: +" +
+                    " Aluno: ${it.aluno} +" +
+                    " Curso: ${it.curso} +" +
+                    " Data Matrícula: ${it.dataMatricula}")
+
+        }
+
+    }
+
+
     fun registrarCurso(nome: String, codigo: Int, qtdMaxAlunos: Int, professorT: ProfessorTitular, professorA: ProfessorAdjunto) {
          for (i in cursos){
             if (i.codigoCurso != codigo) {

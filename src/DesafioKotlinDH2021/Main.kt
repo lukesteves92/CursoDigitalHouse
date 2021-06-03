@@ -4,7 +4,7 @@ package DesafioKotlinDH2021
 
 // Classe para execução do código e para criação dos objetos
 
-class Main {
+fun main() {
 
     val ProfLucas = ProfessorTitular("Lucas", "Esteves", 1515, "Programação")
     val ProfJaqueline = ProfessorTitular("Jaqueline", "Melo", 1616, "Programação")
@@ -20,7 +20,11 @@ class Main {
     val Matricula1 = Matricula(Aluno1, Curso1)
     val Matricula2 = Matricula(Aluno2, Curso2)
 
+    val dhm = DigitalHouseManager()
 
+     println(Aluno1.toString())
+
+      dhm.listarmatriculas()
 
 
 
