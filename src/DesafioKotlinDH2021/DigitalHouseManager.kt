@@ -9,19 +9,16 @@ class DigitalHouseManager {
     private val alunos: MutableList<Aluno> = mutableListOf()
     private val matriculas: MutableList<Matricula> = mutableListOf()
 
+    init {
+        println("Digital House Manager iniciado")
+    }
 
-    fun listarmatriculas(){
-        matriculas.forEach{
-            println("As matrículas realizadas são: +" +
-                    " Aluno: ${it.aluno} +" +
-                    " Curso: ${it.curso} +" +
-                    " Data Matrícula: ${it.dataMatricula}")
-
+    fun listarProfessores(){
+        professores.forEach{
+            println(it)
         }
 
     }
-
-
     fun registrarCurso(nome: String, codigo: Int, qtdMaxAlunos: Int, professorT: ProfessorTitular, professorA: ProfessorAdjunto) {
          for (i in cursos){
             if (i.codigoCurso != codigo) {
@@ -52,6 +49,7 @@ class DigitalHouseManager {
         for (i in professores){
             if (i.codProfessor != codigo) {
                 val profAdjunto = ProfessorAdjunto(nome, sobrenome, codigo, qtdHorasMonitoria)
+                professores.add(profAdjunto)
                 println("Professor registrado com sucesso.")
             }else{
                 println("ERRO! Já existe um professor registrado com o código '$codigo'.")
@@ -64,6 +62,7 @@ class DigitalHouseManager {
         for (i in professores){
             if (i.codProfessor != codigo) {
                 val profTitular = ProfessorTitular(nome, sobrenome, codigo, especialidade)
+                professores.add(profTitular)
                 println("Professor registrado com sucesso.")
             }else{
                 println("ERRO! Já existe um professor registrado com o código '$codigo'.")
