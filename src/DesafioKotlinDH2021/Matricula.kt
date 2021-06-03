@@ -2,11 +2,12 @@
 
 package DesafioKotlinDH2021
 
-class Matricula {
+import java.time.LocalDate
 
-
-
-
-
-
+class Matricula (
+    val aluno: Aluno,
+    val curso: Curso
+){
+    var dataMatricula: LocalDate = LocalDate.now()
 }
+
