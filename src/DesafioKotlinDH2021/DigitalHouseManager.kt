@@ -36,6 +36,19 @@ class DigitalHouseManager {
         }
     }
 
+    fun registrarProfessorAdjunto(nome: String, sobrenome: String, codigo: Int, qtdHorasMonitoria: Int) {
+        for (i in professores){
+            if (i.codProfessor != codigo) {
+                val profAdjunto = ProfessorAdjunto(nome, sobrenome, codigo, qtdHorasMonitoria)
+                println("Curso registrado com sucesso.")
+            }else{
+                println("ERRO! Já existe um curso registrado com o código '$codigo'.")
+
+            }
+        }
+    }
+
+
 
 
 }

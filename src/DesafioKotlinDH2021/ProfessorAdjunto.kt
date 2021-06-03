@@ -11,9 +11,14 @@ class ProfessorAdjunto (
     var qtdHorasMonitoria: Int
 ): Professor(nome, sobrenome, codProfessor){
 
+    val tipo: String = "Adjunto"
+
     init{
         val tempoCasa: LocalDate = LocalDate.now()
+    }
 
+    override fun toString(): String {
+        return "O nome do professor é: $nome $sobrenome / Código: $codProfessor / Tipo: $tipo  "
     }
 
 }
