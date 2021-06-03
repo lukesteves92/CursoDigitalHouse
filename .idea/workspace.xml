@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="77fb700e-d182-4369-8ee3-4e374d276647" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/DesafioKotlinDH2021/DigitalHouseManager.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesafioKotlinDH2021/DigitalHouseManager.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DesafioKotlinDH2021/ProfessorAdjunto.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesafioKotlinDH2021/ProfessorAdjunto.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/DesafioKotlinDH2021/ProfessorTitular.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesafioKotlinDH2021/ProfessorTitular.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -130,7 +128,7 @@
       <workItem from="1622678425931" duration="1775000" />
       <workItem from="1622680237366" duration="1772000" />
       <workItem from="1622682048307" duration="1775000" />
-      <workItem from="1622683862989" duration="1263000" />
+      <workItem from="1622683862989" duration="1579000" />
     </task>
     <servers />
   </component>

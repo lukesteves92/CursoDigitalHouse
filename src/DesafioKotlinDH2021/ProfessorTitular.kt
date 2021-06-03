@@ -15,7 +15,6 @@ class ProfessorTitular (
 
     init{
         val tempoCasa: LocalDate = LocalDate.now()
-
     }
 
     override fun toString(): String {
