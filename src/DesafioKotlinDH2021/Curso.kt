@@ -42,5 +42,20 @@ class Curso (
         }
     }
 
+    fun excluirAluno(aluno: Aluno): Boolean {
+        return (aluno as? Aluno)?.let {
+            if(alunosMatriculados.contains(aluno)){
+                alunosMatriculados.remove(aluno)
+                true
+            } else {
+                println("Desculpe, este aluno não pertence a esta turma. Impossível remover")
+                false
+            }
+        } ?: run {
+            println("Não foi possível remover o aluno.")
+            false
+        }
+    }
+
 
 }
