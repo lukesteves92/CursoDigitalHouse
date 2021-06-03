@@ -2,14 +2,18 @@
 
 package DesafioKotlinDH2021
 
+import java.time.LocalDate
+
 abstract class Professor(
 
     val nome: String,
     val sobrenome: String,
     val codProfessor: Int,
-    val tempoCasa: Int
+    ) {
+    init{
+        val tempoCasa: LocalDate = LocalDate.now()
 
-) {
+    }
     override fun equals(other: Any?): Boolean {
         return (other as? Professor)?.let {
             codProfessor == it.codProfessor
