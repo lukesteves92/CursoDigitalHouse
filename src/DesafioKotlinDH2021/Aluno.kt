@@ -5,7 +5,7 @@ package DesafioKotlinDH2021
 class Aluno (
     val nome: String,
     val sobrenome: String,
-    val codigo: String
+    val codigo: Int
 ) {
     override fun equals(other: Any?): Boolean {
         return (other as? Aluno)?.let {

@@ -73,9 +73,33 @@ class DigitalHouseManager {
         }
     }
 
+    fun registrarAluno(nome: String, sobrenome: String,  codigo: Int) {
+        for (i in alunos){
+            if (i.codigo != codigo) {
+                val curso = Aluno(nome, sobrenome, codigo)
+                println("Aluno registrado com sucesso.")
+
+            }else{
+                println("ERRO! Já existe um aluno registrado com o código '$codigo'.")
+
+            }
+        }
+    }
+
+    fun registrarMatricula(aluno: Aluno, curso: Curso) {
+        for (i in cursos){
+            if (i.alunosMatriculados.size < i.qtdMaxAlunos) {
+                val matricula = Matricula (aluno, curso)
+                println("Matrícula registrada com sucesso.")
+            }else{
+                println("ERRO! Matrícula já efetuada")
+
+            }
+        }
+    }
+
+
     
-
-
 
 }
 

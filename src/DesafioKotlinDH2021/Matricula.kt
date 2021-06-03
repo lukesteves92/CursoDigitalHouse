@@ -7,7 +7,11 @@ import java.time.LocalDate
 class Matricula (
     val aluno: Aluno,
     val curso: Curso
-){
+) {
+    init {
+    }
+
     var dataMatricula: LocalDate = LocalDate.now()
 }
+
 
