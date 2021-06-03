@@ -2,7 +2,7 @@
 
 package DesafioKotlinDH2021
 
-class Professor(
+abstract class Professor(
 
     val nome: String,
     val sobrenome: String,

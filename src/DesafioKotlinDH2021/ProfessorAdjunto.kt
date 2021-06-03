@@ -2,5 +2,14 @@
 
 package DesafioKotlinDH2021
 
-class ProfessorAdjunto {
+class ProfessorAdjunto (
+    nome: String,
+    sobrenome: String,
+    codProfessor: Int,
+    tempoCasa: Int
+    var qtdHorasMonitoria: Int
+): Professor(nome, sobrenome, codProfessor, tempoCasa){
+
+
+
 }

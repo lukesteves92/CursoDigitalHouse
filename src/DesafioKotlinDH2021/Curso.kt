@@ -5,8 +5,13 @@ package DesafioKotlinDH2021
 class Curso (
 
     val nome: String,
-    val codigoCurso: Int
-) {
+    val codigoCurso: Int,
+    val qtdMaxAlunos: Int,
+    val professorTitular: ProfessorTitular,
+    var professorAdjunto: ProfessorAdjunto
+    ) {
+
+    val alunosMatriculados: MutableList<Aluno> = mutableListOf()
 
     override fun equals(other: Any?): Boolean {
         return (other as? Curso)?.let {
