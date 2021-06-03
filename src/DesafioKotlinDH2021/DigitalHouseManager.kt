@@ -40,14 +40,40 @@ class DigitalHouseManager {
         for (i in professores){
             if (i.codProfessor != codigo) {
                 val profAdjunto = ProfessorAdjunto(nome, sobrenome, codigo, qtdHorasMonitoria)
-                println("Curso registrado com sucesso.")
+                println("Professor registrado com sucesso.")
             }else{
-                println("ERRO! Já existe um curso registrado com o código '$codigo'.")
+                println("ERRO! Já existe um professor registrado com o código '$codigo'.")
 
             }
         }
     }
 
+    fun registrarProfessorTitular(nome: String, sobrenome: String, codigo: Int, especialidade: String) {
+        for (i in professores){
+            if (i.codProfessor != codigo) {
+                val profTitular = ProfessorTitular(nome, sobrenome, codigo, especialidade)
+                println("Professor registrado com sucesso.")
+            }else{
+                println("ERRO! Já existe um professor registrado com o código '$codigo'.")
+
+            }
+        }
+    }
+
+    fun excluirProfessor(codigo: Int) {
+        for (i in professores){
+            if (i.codProfessor == codigo) {
+                professores.remove(i)
+                println("Professor removido com sucesso")
+
+            }else{
+                println("ERRO! Não existe um professor com este código '$codigo'.")
+
+            }
+        }
+    }
+
+    
 
 
 
